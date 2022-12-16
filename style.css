@@ -1,0 +1,109 @@
+@font-face{
+    font-family: 'HelveticaNeue';
+    src: url('./fonts/HelveticaNeueBold.ttf') format('ttf');
+    font-weight: bolder;
+    font-style: normal;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	background-color: #0A22F4;
+	width: 1920px;
+	height: 308px;
+	position: relative;
+}
+.wrapper h1{
+	color: #fff;
+	font-size: 32px;
+	position: absolute;
+	top: 70px;
+	left: 240px;
+}
+.wrapper img{
+	position: absolute;
+	top: 150px;
+	left: 240px;
+	width: 463px;
+	height: 420px;
+}
+.box{
+	background-color: #fff;
+	border-radius: 12px;
+	position: relative;
+	top: 435px;
+	left: 250px;
+	width: 443px;
+	height: 125px;
+}
+.box p{
+	position: absolute;
+	font-size: 18px;
+	top: 30px;
+	left: 30px;
+	width: 339px;
+	height: 65px;
+}
+.rectangle img{
+	top: 50px;
+	left: 728px;
+	width: 463px;
+	height: 420px;
+}
+.rectangle p{
+	position: absolute;
+	font-size: 18px;
+	color: #000;
+	top: 319px;
+	left: 789px;
+	width: 346px;
+	height: 68px;
+	font-family:'HelveticaNeue';
+	z-index: 1;
+}
+.box2{
+	position: absolute;
+    top: 295px;
+    left: 775px;
+    width: 370px;
+    height: 120px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+.architecture img{
+	position: relative;
+	top: 29px;
+	left: 1216px;
+	width: 463px;
+	height: 420px;
+}
+.architecture p{
+	position: absolute;
+	font-size: 18px;
+	top: 463px;
+	left: 1256px;
+	width: 339px;
+	height: 65px;
+	z-index: 1;
+}
+.box3{
+	background-color: #fff;
+	border-radius: 12px;
+	position: absolute;
+	top: 435px;
+	left: 1226px;
+	width: 443px;
+	height: 125px;
+}
+.project{
+	color: #000;
+	font-size: 18px;
+	font-family: 'HelveticaNeue';
+	position: absolute;
+	top: 650px;
+	left: 1519px;
+	width: 145px;
+	height: 22px;
+}
